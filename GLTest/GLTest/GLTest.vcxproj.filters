@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Util">
+      <UniqueIdentifier>{10eb44aa-725a-490f-9a03-a38d30b3da87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{271cb409-3751-40fa-97bb-ebce437d372e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SolarSystem">
+      <UniqueIdentifier>{b4cb93fe-170f-4fb9-bf6d-2cf448bced41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RectangleCollision">
+      <UniqueIdentifier>{4000fab7-ebcf-4c42-81d5-fec3bb653c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render">
+      <UniqueIdentifier>{72a1e907-3941-47fa-80b0-b56a917485af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render\Geometry">
+      <UniqueIdentifier>{baf5b726-459c-477a-b23c-ba89b66a5f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render\MeshData">
+      <UniqueIdentifier>{19ddee08-33c2-4e79-81cd-7f488040eef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util\lodepng">
+      <UniqueIdentifier>{1cbf75cf-cd45-428b-93ce-a471f31011b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render\Node">
+      <UniqueIdentifier>{60562002-d001-4772-a41a-82614b45aedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Spring">
+      <UniqueIdentifier>{f91dabd4-1a05-4507-8e9a-60db68944d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Cube">
+      <UniqueIdentifier>{8ef50f02-fbae-4fed-a24a-eedb8538b78b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>소스 파일\Render\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>소스 파일\Render\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.cpp">
+      <Filter>소스 파일\Util\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="GLtest.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>소스 파일\Render\MeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>소스 파일\Render\MeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>소스 파일\Render\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystem.cpp">
+      <Filter>소스 파일\SolarSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>소스 파일\SolarSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>소스 파일\SolarSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystemTest.cpp">
+      <Filter>소스 파일\SolarSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleCollisionTest.cpp">
+      <Filter>소스 파일\RectangleCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRect.cpp">
+      <Filter>소스 파일\RectangleCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleCollision.cpp">
+      <Filter>소스 파일\RectangleCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SpringTest.cpp">
+      <Filter>소스 파일\Spring</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeTest.cpp">
+      <Filter>소스 파일\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>소스 파일\Render\Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>소스 파일\Render\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>소스 파일\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUtil.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng.h">
+      <Filter>소스 파일\Util\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>소스 파일\Render\MeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>소스 파일\Render\MeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>소스 파일\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSystem.h">
+      <Filter>소스 파일\SolarSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>소스 파일\SolarSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>소스 파일\SolarSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSystemTest.h">
+      <Filter>소스 파일\SolarSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleCollisionTest.h">
+      <Filter>소스 파일\RectangleCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRect.h">
+      <Filter>소스 파일\RectangleCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleCollision.h">
+      <Filter>소스 파일\RectangleCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SpringTest.h">
+      <Filter>소스 파일\Spring</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeTest.h">
+      <Filter>소스 파일\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>소스 파일\Render\Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
